@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pillow = "*"
+mysqlclient = "*"
+redis = "*"
+hiredis = "*"
+gevent = "*"
+oss2 = "*"
+django-redis-sessions = "*"
+django-redis-cache = "*"
+djangorestframework = "*"
+django-restframework-apiview = ">=1.2.20"
+celery = "*"
+cryptography = "*"
+dingtalk-sdk = ">=1.1.0"
+django = "==1.11.21"
+
+[requires]
+python_version = "3.7"

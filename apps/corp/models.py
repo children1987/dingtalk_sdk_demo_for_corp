@@ -8,7 +8,6 @@ from core import model
 
 
 class User(AbstractUserMixin, model.BaseModel):
-    dingid = models.CharField('钉钉Id', max_length=128, null=False, blank=False, default='', unique=True)
     userid = models.CharField('员工唯一标识ID', max_length=128, null=False, blank=False, default='', unique=True)
     name = models.CharField('成员名称', max_length=128, null=False, blank=False, default='')
     mobile = models.CharField('手机号码', max_length=64, null=False, blank=False, default='', db_index=True)
