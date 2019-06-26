@@ -26,5 +26,6 @@ pipenv run python manage.py runserver 0.0.0.0:8000
 企业接入
 --------
 在钉钉后台配置ip或域名白名单。
-先登录 `http://ip:8000/admin/`
-local_settings.py 中配置企业接入相关参数后，访问 `http://ip:8000/api/dingtalk/corp/test/sync/corp` 可将企业员工同步到对应User表中，可以通过`http://ip:8000/admin/corp/user/`查看
+登录 `http://ip:8000/admin/`。
+访问 `http://ip:8000/api/dingtalk/corp/test/sync/corp` 可将企业员工同步到对应User表中。
+可以通过`http://ip:8000/admin/corp/user/`查看。
